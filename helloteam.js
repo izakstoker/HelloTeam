@@ -1,6 +1,7 @@
 const names = ["Corban", ];
 
+  names.forEach(helloTeam)
 
-for (let i = 0; i < names.length; i++) {
-    console.dir("Hello " + names[i]);
+  function helloTeam(name) {
+    console.dir("Hello " + name);
   }
